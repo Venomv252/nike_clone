@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .primary_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 234, 234);
+    padding: 10px 30px;
+  }
+  
+  @font-face {
+    font-family: HelveticaNowText-Medium;
+    src: url(./Font/HelveticaNowText-Medium.woff);
+    font-weight: 100;
+  }
+  
+  .primary_nav_content {
+    display: flex;
+    align-items: center;
+    font-family: HelveticaNowText-Medium;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 18px;
+  }
+  
+  .primary_nav_content ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .primary_nav_content ul li {
+    font-size: 12px;
+  }
+  
+  .primary_nav_content ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .primary_nav_content ul li span {
+    color: #999;
+  }
+  
