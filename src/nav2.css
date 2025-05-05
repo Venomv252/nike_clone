@@ -1,0 +1,21 @@
+.secondary_nav_logo {
+    display: flex;
+
+}
+.secondary_nav_logo svg{
+    height: 100px;
+    width: auto;
+}
+.secondary_nav_main{
+    display: flex;
+}
+.secondary_nav_main ul{
+    display: flex;
+}
+.secondary_nav_main ul li{
+    list-style: none;
+}
+
+.secondary_nav_search img{
+    height: 100px;
+}

@@ -1,7 +1,6 @@
 import "./nav1.css";
 import "./nav2.css";
 
-
 export function Nav1() {
   return (
     <div className="primary_nav nav">
@@ -54,40 +53,41 @@ export function Nav1() {
 }
 export function Nav2() {
   return (
- <>
-    <div className="secondary_nav nav">
-      <svg
-        aria-hidden="true"
-        class="swoosh-svg"
-        focusable="false"
-        viewBox="0 0 24 24"
-        role="img"
-        width="24px"
-        height="24px"
-        fill="none"
-      >
-        <path
-          fill="currentColor"
-          fill-rule="evenodd"
-          d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z"
-          clip-rule="evenodd"
-        ></path>
-      </svg>
-      <div className="secondary_nav_main">
-        <ul>
-          <li>New & Featured</li>
-          <li>Men</li>
-          <li>Women</li>
-          <li>Kids</li>
-          <li>Sale</li>
-          <li>SNKRS</li>
-        </ul>
-      </div>
-      <div className="secondary_nav_search">
-        <img src="./src/assets/search-icon-png-9985.png" alt="" />
-        <input type="search" />
-      </div>
-      </div>
+    <>
+    
+        <div className="secondary_nav_logo">
+          <svg
+            aria-hidden="true"
+            class="swoosh-svg"
+            focusable="false"
+            viewBox="0 0 24 24"
+            role="img"
+            width="24px"
+            height="24px"
+            fill="none"
+          >
+            <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <div className="secondary_nav_main">
+            <ul>
+              <li>New & Featured</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>Kids</li>
+              <li>Sale</li>
+              <li>SNKRS</li>
+            </ul>
+          </div>
+          <div className="secondary_nav_search">
+            <img src="./src/assets/search-icon-png-9985.png" alt="" />
+            <input type="search" />
+          </div>
+        </div>
 
     </>
   );
