@@ -1,6 +1,7 @@
 import "./nav1.css";
 import "./nav2.css";
 
+
 export function Nav1() {
   return (
     <div className="primary_nav nav">
@@ -73,7 +74,18 @@ export function Nav2() {
         ></path>
       </svg>
       <div className="secondary_nav_main">
-        
+        <ul>
+          <li>New & Featured</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
+          <li>Sale</li>
+          <li>SNKRS</li>
+        </ul>
+      </div>
+      <div className="secondary_nav_search">
+        <img src="./src/assets/search-icon-png-9985.png" alt="" />
+        <input type="search" />
       </div>
       </div>
 
