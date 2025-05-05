@@ -13,4 +13,3 @@ export function First() {
     </div>
   );
 }
-//   https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_965,c_limit/66211d16-1eb7-4921-9c74-fec4315134ea/nike-just-do-it.jpg
